@@ -1,0 +1,53 @@
+.MAIN{
+    display: flex;
+    position: relative;
+}
+#path-one{
+   /* position: absolute; */
+   animation:upwards .5s forwards;
+}
+@keyframes upwards{
+    from {
+    transform: translateY(60px);
+    }
+    to {
+     transform: translateY(-30px);
+    }
+}
+#typing{
+    position: absolute;
+    margin-left: -33.5%;
+    margin-top: 0.7%;
+    animation: type .5s forwards;
+}
+@keyframes type{
+    from {
+        transform: translateY(60px);
+        }
+        to {
+         transform: translateY(-30px);
+        }
+}
+.myty-link{
+    position: absolute;
+    margin-left: 4%;
+    top:80px;
+}
+#links{
+    animation: pop 1.3s forwards;
+}
+@keyframes pop{
+    0%{
+        opacity: 0;
+        transform: translateY(0%);
+    }
+    60%{
+        opacity: 0;
+    }
+}
+
+
+
+
+
+
